@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/default_padding">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sectionName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/default_padding"
+            android:paddingLeft="0dp"
+            android:paddingRight="@dimen/default_padding"
+            android:paddingStart="0dp"
+            android:text="@string/technology"
+            android:textColor="@color/red"
+            android:textSize="@dimen/section_textSize" />
+
+        <TextView
+            android:id="@+id/webTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/default_padding"
+            android:paddingLeft="@dimen/default_padding"
+            android:paddingRight="@dimen/default_padding"
+            android:paddingStart="0dp"
+            android:text="@string/demo_news_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_textSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/demo_author"
+            android:textColor="@color/author_textColor"
+            android:textSize="@dimen/author_textSize" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/webPublicationDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/demo_date"
+                android:textSize="@dimen/date_textSize" />
+
+            <TextView
+                android:id="@+id/hoursAgo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/pretty_text_margin"
+                android:text="@string/demo_pretty_date"
+                android:textSize="@dimen/pretty_time_textSize"
+                android:layout_marginStart="@dimen/pretty_text_margin" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="pretty_text_margin">36dp</dimen>
+    <dimen name="section_textSize">16sp</dimen>
+    <dimen name="title_textSize">22sp</dimen>
+    <dimen name="author_textSize">16sp</dimen>
+    <dimen name="date_textSize">14sp</dimen>
+    <dimen name="pretty_time_textSize">14sp</dimen>
+</resources>
